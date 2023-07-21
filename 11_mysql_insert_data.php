@@ -11,8 +11,8 @@ if(!$conn){
     echo "Connection was successful<br>";
 }
 
-$name = "nastya";
-$destination = "russia";
+$name = "steven";
+$destination = "canada";
 
 $sql ="INSERT INTO `phptrip` ( `name`, `dest`) VALUES ( '$name' , '$destination' )";
 $result = mysqli_query($conn,$sql);
