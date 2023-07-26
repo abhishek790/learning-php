@@ -37,7 +37,7 @@ echo "<br>";
 ?>
 
 <?php
-// reading a file character by character
+// reading a file line by line
 $fptr = fopen("myfile.txt","r");
 while($a = fgets($fptr)){
     echo $a;
@@ -57,7 +57,7 @@ echo "<br>";
 ?>
 
 <?php
-// write a program which reads the content of a file until peroid . has been encountered
+// write a program which reads the content of a file until period . has been encountered
 $fptr = fopen("myfile.txt",'r');
 while($a= fgetc($fptr)){
     if($a == '.'){
